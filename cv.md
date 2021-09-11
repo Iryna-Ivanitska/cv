@@ -59,4 +59,3 @@ function friend(friends){
 <img src="Udemy-html-css.jpg" alt="Udemy-html-css" width="250px">
 <img src="CCA-Certificate-HTML.jpg" alt="CCA HTML" width="250px">
 <img src="CCA-Certificate-CSS.jpg" alt="CCA CSS" width="250px">
-
