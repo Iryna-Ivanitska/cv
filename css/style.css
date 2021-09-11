@@ -1,0 +1,46 @@
+.avatar {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fd7e14;
+}
+
+a:hover {
+    color: #5e2c03;
+}
+
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+  }
+
+.certificates img {
+    width: 49%;
+    box-sizing: border-box;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #fd7e14;
+}
+
+.rs-logo img {
+    background-color: white;
+}
+
+.rs-logo img:hover {
+    background-color: #fd7e14;
+}
+
+@media screen and (max-width: 767px) {
+    .certificates img {
+    width: 100%;
+}
+}
