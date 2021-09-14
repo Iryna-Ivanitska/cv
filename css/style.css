@@ -16,6 +16,7 @@ pre code {
     border: 1px solid #999;
     display: block;
     padding: 20px;
+    overflow: auto;
   }
 
 .certificates img {
@@ -43,4 +44,8 @@ footer a:hover {
     .certificates img {
     width: 100%;
 }
+.border-end {
+    border-right: none;
+}
+
 }
