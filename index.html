@@ -10,6 +10,9 @@
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/fab5f4c9bf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body class="bg-light ">
@@ -91,7 +94,7 @@
                 <div class="code mt-5">
                     <h2 class="border-bottom border-4 border-warning"><i class="fas fa-code"></i> Code example</h2>
                     <pre>
-                        <code>
+                        <code class="js">
 function friend(friends){
     let newFriends = [];
     for (let i = 0; i &lt; friends.length; i++) {
